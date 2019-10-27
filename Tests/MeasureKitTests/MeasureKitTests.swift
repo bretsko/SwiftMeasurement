@@ -20,12 +20,12 @@ class SwiftMeasurementTests: XCTestCase {
     }
 }
 
-#if os(Linux)
-extension SwiftMeasurementTests {
-    static var allTests : [(String, (SwiftMeasurementTests) -> () throws -> Void)] {
-        return [
-            ("test1", test1),
-        ]
-    }
-}
-#endif
+//#if os(Linux)
+//extension SwiftMeasurementTests {
+//    static var allTests : [(String, (SwiftMeasurementTests) -> () throws -> Void)] {
+//        return [
+//            ("test1", test1),
+//        ]
+//    }
+//}
+//#endif
