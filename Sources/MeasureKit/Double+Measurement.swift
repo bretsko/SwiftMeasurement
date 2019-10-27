@@ -2,7 +2,6 @@
 import Foundation
 
 // - UnitAngle: []
-@available(iOS 10.0, *)
 public extension Double {
     
     var degrees: Measurement<UnitAngle> {
@@ -28,11 +27,9 @@ public extension Double {
     var revolutions: Measurement<UnitAngle> {
         return Measurement(value: self, unit: .revolutions)
     }
-    
 }
 
 // - UnitPressure: [M/LT^2]
-@available(iOS 10.0, *)
 public extension Double {
     
     var newtonsPerMetersSquared: Measurement<UnitPressure> {
@@ -74,21 +71,17 @@ public extension Double {
     var poundsForcePerSquareInch: Measurement<UnitPressure> {
         return Measurement(value: self, unit: .poundsForcePerSquareInch)
     }
-    
 }
 
 // - UnitDispersion: []
-@available(iOS 10.0, *)
 public extension Double {
     
     var partsPerMillion: Measurement<UnitDispersion> {
         return Measurement(value: self, unit: .partsPerMillion)
     }
-    
 }
 
 // - UnitElectricPotentialDifference: [L^2M/T^3I]
-@available(iOS 10.0, *)
 public extension Double {
     
     var megavolts: Measurement<UnitElectricPotentialDifference> {
@@ -110,11 +103,9 @@ public extension Double {
     var microvolts: Measurement<UnitElectricPotentialDifference> {
         return Measurement(value: self, unit: .microvolts)
     }
-    
 }
 
 // - UnitDuration: [T]
-@available(iOS 10.0, *)
 public extension Double {
     
     var seconds: Measurement<UnitDuration> {
@@ -128,11 +119,9 @@ public extension Double {
     var hours: Measurement<UnitDuration> {
         return Measurement(value: self, unit: .hours)
     }
-    
 }
 
 // - UnitPower: [ML^2/T^3]
-@available(iOS 10.0, *)
 public extension Double {
     
     var terawatts: Measurement<UnitPower> {
@@ -178,11 +167,9 @@ public extension Double {
     var horsepower: Measurement<UnitPower> {
         return Measurement(value: self, unit: .horsepower)
     }
-    
 }
 
 // - UnitElectricCharge: [IT]
-@available(iOS 10.0, *)
 public extension Double {
     
     var coulombs: Measurement<UnitElectricCharge> {
@@ -208,11 +195,9 @@ public extension Double {
     var microampereHours: Measurement<UnitElectricCharge> {
         return Measurement(value: self, unit: .microampereHours)
     }
-    
 }
 
 // - UnitAcceleration: [L/T^2]
-@available(iOS 10.0, *)
 public extension Double {
     
     var metersPerSecondSquared: Measurement<UnitAcceleration> {
@@ -222,11 +207,9 @@ public extension Double {
     var gravity: Measurement<UnitAcceleration> {
         return Measurement(value: self, unit: .gravity)
     }
-    
 }
 
 // - UnitTemperature: [Θ]
-@available(iOS 10.0, *)
 public extension Double {
     
     var kelvin: Measurement<UnitTemperature> {
@@ -240,11 +223,9 @@ public extension Double {
     var fahrenheit: Measurement<UnitTemperature> {
         return Measurement(value: self, unit: .fahrenheit)
     }
-    
 }
 
 // - UnitIlluminance: [J/L^2]
-@available(iOS 10.0, *)
 public extension Double {
     
     var lux: Measurement<UnitIlluminance> {
@@ -254,7 +235,6 @@ public extension Double {
 }
 
 // - UnitFrequency: [/T]
-@available(iOS 10.0, *)
 public extension Double {
     
     var terahertz: Measurement<UnitFrequency> {
@@ -288,11 +268,9 @@ public extension Double {
     var nanohertz: Measurement<UnitFrequency> {
         return Measurement(value: self, unit: .nanohertz)
     }
-    
 }
 
 // - UnitArea: [L^2]
-@available(iOS 10.0, *)
 public extension Double {
     
     var squareMegameters: Measurement<UnitArea> {
@@ -350,11 +328,9 @@ public extension Double {
     var hectares: Measurement<UnitArea> {
         return Measurement(value: self, unit: .hectares)
     }
-    
 }
 
 // - UnitLength: [L]
-@available(iOS 10.0, *)
 public extension Double {
     
     var megameters: Measurement<UnitLength> {
@@ -444,11 +420,9 @@ public extension Double {
     var parsecs: Measurement<UnitLength> {
         return Measurement(value: self, unit: .parsecs)
     }
-    
 }
 
 // - UnitElectricCurrent: [I]
-@available(iOS 10.0, *)
 public extension Double {
     
     var megaamperes: Measurement<UnitElectricCurrent> {
@@ -470,11 +444,9 @@ public extension Double {
     var microamperes: Measurement<UnitElectricCurrent> {
         return Measurement(value: self, unit: .microamperes)
     }
-    
 }
 
 // - UnitFuelEfficiency
-@available(iOS 10.0, *)
 public extension Double {
     
     var litersPer100Kilometers: Measurement<UnitFuelEfficiency> {
@@ -488,11 +460,9 @@ public extension Double {
     var milesPerGallon: Measurement<UnitFuelEfficiency> {
         return Measurement(value: self, unit: .milesPerGallon)
     }
-    
 }
 
 // - UnitConcentrationMass: [M/L^3]
-@available(iOS 10.0, *)
 public extension Double {
     
     var gramsPerLiter: Measurement<UnitConcentrationMass> {
@@ -506,7 +476,6 @@ public extension Double {
 }
 
 // - UnitVolume: [L^3]
-@available(iOS 10.0, *)
 public extension Double {
     
     var megaliters: Measurement<UnitVolume> {
@@ -632,11 +601,9 @@ public extension Double {
     var metricCups: Measurement<UnitVolume> {
         return Measurement(value: self, unit: .metricCups)
     }
-    
 }
 
 // - UnitSpeed: [L/T]
-@available(iOS 10.0, *)
 public extension Double {
     
     var metersPerSecond: Measurement<UnitSpeed> {
@@ -654,11 +621,9 @@ public extension Double {
     var knots: Measurement<UnitSpeed> {
         return Measurement(value: self, unit: .knots)
     }
-    
 }
 
 // - UnitElectricResistance: [L^2M/T^3I^2]
-@available(iOS 10.0, *)
 public extension Double {
     
     var megaohms: Measurement<UnitElectricResistance> {
@@ -680,11 +645,9 @@ public extension Double {
     var microohms: Measurement<UnitElectricResistance> {
         return Measurement(value: self, unit: .microohms)
     }
-    
 }
 
 // - UnitMass: [M]
-@available(iOS 10.0, *)
 public extension Double {
     
     var kilograms: Measurement<UnitMass> {
@@ -750,11 +713,9 @@ public extension Double {
     var slugs: Measurement<UnitMass> {
         return Measurement(value: self, unit: .slugs)
     }
-    
 }
 
 // - UnitEnergy: [ML^2/T^2]
-@available(iOS 10.0, *)
 public extension Double {
     
     var kilojoules: Measurement<UnitEnergy> {
@@ -776,5 +737,4 @@ public extension Double {
     var kilowattHours: Measurement<UnitEnergy> {
         return Measurement(value: self, unit: .kilowattHours)
     }
-    
 }

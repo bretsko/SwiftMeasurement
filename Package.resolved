@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "MinimalBase",
+        "repositoryURL": "https://github.com/bretsko/MinimalBase",
+        "state": {
+          "branch": null,
+          "revision": "796e7478afa58947943f9674b21fcebb6357f5f8",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

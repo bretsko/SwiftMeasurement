@@ -2,6 +2,15 @@
 
 The best way to deal with Measurements and Units in Swift.
 
+[![Swift5 compatible][Swift5Badge]][Swift5Link]
+[![SPM compatible][SPMBadge]][SPMLink]
+
+[Swift5Badge]: https://img.shields.io/badge/swift-5-orange.svg?style=flat
+[Swift5Link]: https://developer.apple.com/swift/
+
+[SPMBadge]: https://img.shields.io/badge/SPM-compatible-brightgreen.svg
+[SPMLink]: https://github.com/apple/swift-package-manager
+
 Measurements and Units are newly introduced in iOS 10.
 * [Measurements and Units - WWDC 2016 - Videos - Apple Developer](https://developer.apple.com/videos/play/wwdc2016/238/)
 
