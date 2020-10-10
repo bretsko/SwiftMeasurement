@@ -1,4 +1,4 @@
-# MeasureKit
+# SwiftMeasurement
 
 The best way to deal with Measurements and Units in Swift.
 
@@ -28,7 +28,7 @@ Measurement<UnitLength>(value: 3, unit: .kilometers) + Measurement<UnitLength>(v
 3.kilometers + 4.kilometers
 ```
 
-MeasureKit supports all units declared in Foundation framework.
+SwiftMeasurement supports all units declared in Foundation framework.
 
 - UnitLength
 - UnitFuelEfficiency
@@ -61,7 +61,7 @@ Current version is compatible with:
 
 ## Installation
 
-MeasureKit supports multiple methods for installing the library in a project.
+SwiftMeasurement supports multiple methods for installing the library in a project.
 
 
 ## Future features
